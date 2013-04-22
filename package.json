@@ -1,0 +1,12 @@
+{
+    "name": "mongoose-js-example",
+    "version": "0.0.1",
+    "engines": {
+        "node": "0.8.x",
+        "npm":  "1.1.x"
+    },
+    "dependencies": {
+        "mongoose": "3.5.x",
+        "mocha": "1.8.x"
+    }
+}

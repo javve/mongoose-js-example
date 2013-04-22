@@ -1,0 +1,7 @@
+module.exports = {
+    mongohq: {
+        user: "",
+        password: "",
+        url: ""
+    }
+};
