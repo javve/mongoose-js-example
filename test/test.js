@@ -1,6 +1,6 @@
 process.env.NODE_ENV = 'test'
 
-var database = require('./database'),
+var database = require('./../database'),
     assert = require('assert');
 
 var Person = database.model('Person');
@@ -8,7 +8,7 @@ var Person = database.model('Person');
 describe('Person', function() {
     it('should create a person than remove it', function(done) {
 
-        var name = "Johannes";
+        var name = "Jonny";
 
         var person = new Person({
             name: name
